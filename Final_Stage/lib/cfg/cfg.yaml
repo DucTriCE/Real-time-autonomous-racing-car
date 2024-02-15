@@ -1,0 +1,6 @@
+source: "images/segment"
+weights: ['models/OBJ/test8.engine', models/SEG/tri.torchscript]
+imgsize_yolo: [224, 224]
+imgsize_seg: [80, 160]
+visualize: True
+save_dir: runs
